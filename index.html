@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Book List - Main</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Book list</h2>
+        <nav>
+            <a href="index.html">Main Page</a>
+            <a href="reg.html">Register</a>
+            <a href="login.html">Sign In</a>
+        </nav>
+    </header>
+    <main>
+        <form action="index.html" method="post">
+            <label for="bookName">Book Name</label><br/>
+            <input type="text" id="bookName" name="bookName"><br/>
+            <label for="bookAuthor">Book Author</label><br/>
+            <input type="text" id="bookAuthor" name="bookAuthor"><br/>
+            <input type="submit" value="Add Book">
+        </form>
+        <hr/>
+        <h3>Book List</h3>
+        <table>
+            <tr>
+                <th class="main-column">Author</th>
+                <th class="main-column">Book</th>
+                <th class="status-column">Status</th>
+            </tr>
+            <tr>
+                <td>Jack McDavitt</td>
+                <td>The Long Sunset</td>
+                <td>55%</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
